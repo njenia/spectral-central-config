@@ -83,10 +83,10 @@ projects:
             roots:
             - rules      # folder(s) relative to this file
             # cherry-pick rules for these roots
-            # include:
-            #    tags:
-            #    - node
-            #    ids: []
+            include:
+              tags:
+                - base
+              ids: ['CLD001']
             # exclude:
             #    tags:
             #    - node
